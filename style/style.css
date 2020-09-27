@@ -1,0 +1,138 @@
+body {
+
+
+}
+
+.menu {
+
+  border:4px aliceblue solid;
+  height: 60px;
+  padding-right:20px;
+  padding-left:20px;
+  margin-top:15px;
+  font-size: 25px;
+
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+
+}
+
+a.menu {
+ font-size:15px;
+ color: black;
+ font:monospace;
+}
+
+
+.signin {
+
+  border:4px aliceblue solid;
+  height: 400px;
+  width: 800px;
+  margin-top:125px;
+  font-size: 25px;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+
+
+}
+
+.profilepic {
+
+  border:2px aliceblue solid;
+  width: 175px;
+  height: 175px;
+
+
+}
+
+img.profilepic {
+border-radius:32px;
+
+}
+
+.fields {
+  display:flex;
+  flex-direction:column;
+  width:350px;
+}
+
+.tasks {
+
+  border:4px aliceblue solid;
+  height: 400px;
+  width: 800px;
+  margin-top:125px;
+  font-size: 25px;
+
+
+
+}
+
+.checkbox {
+  border:4px aliceblue solid;
+  height:50px;
+  width:50px;
+}
+
+.taskitem {
+  display:flex;
+  justify-content:space-evenly;
+  flex-wrap:wrap;
+  align-items:center;
+  margin-top:20px;
+
+}
+
+.calendarbox {
+  border:4px aliceblue solid;
+  height: 400px;
+  width: 800px;
+  margin-top:125px;
+  font-size: 25px;
+
+}
+
+.daylabel {
+  display:flex;
+  justify-content:space-evenly;
+}
+
+.day {
+  display:flex;
+  justify-content:space-evenly;
+  flex-wrap: row;
+
+}
+
+.daybox {
+  border:2px grey solid;
+  height: 325px;
+  width: 75px;
+  margin-top:5px;
+  font-size: 25px;
+
+}
+
+.intro {
+  border:4px aliceblue solid;
+  height: 400px;
+  width: 800px;
+  margin-top:125px;
+  font-size: 15px;
+
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  flex-wrap:row;
+
+}
+
+.para {
+
+  width:150px;
+  margin-left:5px;
+  font-size:13px;
+}
